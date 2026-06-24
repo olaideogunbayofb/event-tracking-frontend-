@@ -1,0 +1,10 @@
+# Netlify build configuration for the Create React App frontend.
+[build]
+  command = "npm run build"
+  publish = "build"
+
+# SPA fallback: serve index.html for any path (also covered by public/_redirects).
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
