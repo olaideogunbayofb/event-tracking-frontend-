@@ -1,6 +1,6 @@
-# Netlify build configuration for the Create React App frontend.
+# Netlify build configuration — no build needed, pre-built files in /build
 [build]
-  command = "npm run build"
+  command = "echo 'Pre-built — skipping npm install and build'"
   publish = "build"
 
 # SPA fallback: serve index.html for any path (also covered by public/_redirects).

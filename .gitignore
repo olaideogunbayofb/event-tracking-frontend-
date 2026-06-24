@@ -1,8 +1,7 @@
 # Dependencies
 node_modules/
 
-# Production / build output (Netlify rebuilds this)
-build/
+# Production / build output
 dist/
 
 # Local env overrides (keep secrets/local-only out of git)
